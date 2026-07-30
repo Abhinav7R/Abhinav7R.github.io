@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Gallery of photography, paintings, and travel by Abhinav Raundhal.">
     <title>Abhinav Raundhal · Gallery</title>
+    <link rel="icon" type="image/png" href="./assets/images/profile/profile.png">
     <script>
         (() => {
             const storedTheme = localStorage.getItem('site-theme');
-            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            document.documentElement.dataset.theme = storedTheme || (prefersDark ? 'dark' : 'light');
+            document.documentElement.dataset.theme = storedTheme || 'light';
         })();
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -2,7 +2,7 @@ window.siteData = {
   "site": {
     "name": "Abhinav Raundhal",
     "affiliation": "Cloudphysician · IIIT Hyderabad",
-    "lastUpdated": "30 July 2026",
+    "lastUpdated": "13 August 2026",
     "intro": [
       "I am a Computer Vision Engineer at Cloudphysician, where I develop computer vision models for real-time critical care applications. I graduated from IIIT Hyderabad, where I conducted research at the Center for Visual Information Technology (CVIT) and the Robotics Research Center (RRC).",
       "My research interests include computer vision, 3D vision, and robotics. My recent work spans 3D Gaussian Splatting, autonomous exploration and mapping, document understanding, and privacy-preserving 3D scene representations.",

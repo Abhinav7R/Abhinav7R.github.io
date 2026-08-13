@@ -125,12 +125,12 @@ window.siteData = {
       "accent": "#f0b06d"
     },
     {
-      "title": "AI Aided Paddy Procurement",
-      "slug": "paddy-procurement",
-      "description": "Using image processing and CV models for crop identification, detecting fake paddy, and determining the health of paddy. Aided Telangana government to efficiently manage and assess paddy cultivation.",
-      "github": "https://github.com/Abhinav7R/Megathon23",
-      "tags": ["Computer Vision", "ML", "Agritech"],
-      "thumbnail": "./assets/images/projects/paddy.png",
+      "title": "Simple Renderer",
+      "slug": "simple-renderer",
+      "description": "Simple renderer in C++ to render scenes using concepts such as Bounding Volume Hierarchy, texture mapping, direct lighting with point and directional lights, Monte Carlo integration for area light sampling.",
+      "github": "https://github.com/Abhinav7R/SimpleRenderer",
+      "tags": ["Graphics", "Ray Tracing"],
+      "thumbnail": "./assets/images/projects/cg.png",
       "accent": "#d8b0ff"
     },
     {
@@ -150,6 +150,33 @@ window.siteData = {
       "tags": ["Computer Vision", "Videos", "CLIP"],
       "thumbnail": "./assets/images/projects/megathon-25.png",
       "accent": "#e88d6d"
+    },
+    {
+      "title": "AI Aided Paddy Procurement",
+      "slug": "paddy-procurement",
+      "description": "Using image processing and CV models for crop identification, detecting fake paddy, and determining the health of paddy. Aided Telangana government to efficiently manage and assess paddy cultivation.",
+      "github": "https://github.com/Abhinav7R/Megathon23",
+      "tags": ["Computer Vision", "ML", "Agritech"],
+      "thumbnail": "./assets/images/projects/paddy.png",
+      "accent": "#d8b0ff"
+    },
+    {
+      "title": "Robotics Perception & SLAM",
+      "slug": "rob-percep-slam",
+      "description": "Implemented core algorithms including ICP point cloud registration, Lie group optimization, pose graph optimization, SLAM, camera extrinsic calibration, and two-view geometry.",
+      "github": "https://github.com/Abhinav7R/MobileRobotics",
+      "tags": ["Robotics", "SLAM"],
+      "thumbnail": "./assets/images/projects/mr.png",
+      "accent": "#96ffa2ff"
+    },
+    {
+      "title": "Cart-Pole Swing-Up",
+      "slug": "cart-pole-swing-up",
+      "description": "Analysed and simulated the cart-pole swing-up problem using numerical trajectory optimization with OptimTraj. Implemented trapezoidal collocation and Hermite-Simpson methods.",
+      "github": "https://github.com/Abhinav7R/Cart-Pole-Swing-Up",
+      "tags": ["Numerical Optimization"],
+      "thumbnail": "./assets/images/projects/cart-pole.png",
+      "accent": "#ff9696ff"
     },
     {
       "title": "gRPC-Strife",

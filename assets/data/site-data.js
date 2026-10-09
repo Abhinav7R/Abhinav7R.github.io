@@ -2,11 +2,11 @@ window.siteData = {
   "site": {
     "name": "Abhinav Raundhal",
     "affiliation": "Cloudphysician · IIIT Hyderabad",
-    "lastUpdated": "13 August 2026",
+    "lastUpdated": "10 October 2026",
     "intro": [
-      "I am a Computer Vision Engineer at Cloudphysician, where I develop computer vision models for real-time critical care applications. I graduated from IIIT Hyderabad, where I conducted research at the Center for Visual Information Technology (CVIT) and the Robotics Research Center (RRC).",
+      "I am a Computer Vision Engineer at Cloudphysician, where I develop computer vision models for real-time critical care applications for ICU patients. I graduated from IIIT Hyderabad, where I conducted research at the Center for Visual Information Technology (CVIT) and the Robotics Research Center (RRC).",
       "My research interests include computer vision, 3D vision, and robotics. My recent work spans 3D Gaussian Splatting, autonomous exploration and mapping, document understanding, and privacy-preserving 3D scene representations.",
-      "Outside of work, I enjoy travelling, photography, painting, and exploring new places. Feel free to sneak into my <a href=\"gallery.html\">Gallery</a> to see some of my recent adventures and artwork!"
+      "I enjoy photography, painting, and exploring new places. Feel free to sneak into my <a href=\"gallery.html\">Gallery</a> to see some of my recent adventures and artwork!"
     ],
     "profileImage": "./assets/images/profile/profile.png",
     "socials": [
@@ -42,6 +42,14 @@ window.siteData = {
   },
   "news": [
     {
+      "date": "Sep 2026",
+      "text": "🚀 Best Paper Award at Bridging Perspectives in Navigation workshop for \"Beyond Frontiers\" at IROS 2026."
+    },
+    {
+      "date": "Sep 2026",
+      "text": "🪧 Presented our work on \"Beyond Frontiers: Scene Anomaly Guided Autonomous Exploration\" at IROS, Pittsburgh."
+    },
+    {
       "date": "Jul 2026",
       "text": "🎓 Graduated from IIIT Hyderabad with BTech (Honours) in CSE."
     },
@@ -56,6 +64,10 @@ window.siteData = {
     {
       "date": "Jun 2026",
       "text": "🎉 Our paper \"Beyond Frontiers: Scene Anomaly Guided Autonomous Exploration\" was accepted to IROS 2026."
+    },
+    {
+      "date": "Mar 2026",
+      "text": "🪧 Presented our work on \"STRinGS: Selective Text Refinement in Gaussian Splatting\" at WACV, Tucson."
     },
     {
       "date": "Nov 2025",
@@ -86,7 +98,7 @@ window.siteData = {
       {
         "id": "beyondfrontiers",
         "title": "Beyond Frontiers: Scene-Anomaly Guided Autonomous Exploration",
-        "conference": "IROS 2026",
+        "conference": "IROS 2026 (🚀 Won the Best Paper Award at the Bridging Perspectives in Navigation Workshop)",
         "authors": "Akash Kumbar, Abhinav Raundhal, Madhava Krishna",
         "summary": "Developed a scene anomaly-guided autonomous exploration framework that actively targets poorly reconstructed regions for improved mapping. Demonstrated better volumetric coverage and higher-fidelity 3D reconstruction over state-of-the-art baselines.",
         "projectUrl": "https://beyondfrontiers.github.io/",
@@ -293,11 +305,15 @@ window.siteData = {
       },
       {
         "title": "Dean's List across 8/8 semesters",
-        "description": "Achieved DL1 four times, DL2 three times, and the merit list once at IIIT Hyderabad."
+        "description": "Achieved DL1 four times, DL2 three times, and the merit list once at IIIT Hyderabad. Perfect 10 SGPA in 2 semesters."
       },
       {
         "title": "Megathon Winner for 3 consecutive years",
         "description": "Won hackathons organized by E-Cell IIITH with problem statements from Chubb, Telangana State Govt, and Mindpeers."
+      },
+      {
+        "title": "KVPY Scholar",
+        "description": "Kishore Vaigyanik Protsahan Yojana (KVPY) fellowship for students showing aptitude and interest in research in India."
       }
     ]
   },
@@ -328,6 +344,20 @@ window.siteData = {
           { "src": "./assets/images/gallery/travel/wacv-26/7.png" },
           { "src": "./assets/images/gallery/travel/wacv-26/8.png" },
           { "src": "./assets/images/gallery/travel/wacv-26/9.png" }
+        ]
+      },
+      {
+        "title": "Pittsburgh, 2026",
+        "images": [
+          { "src": "./assets/images/gallery/travel/iros-26/1.png" },
+          { "src": "./assets/images/gallery/travel/iros-26/2.png" },
+          { "src": "./assets/images/gallery/travel/iros-26/3.png" },
+          { "src": "./assets/images/gallery/travel/iros-26/4.png" },
+          { "src": "./assets/images/gallery/travel/iros-26/5.png" },
+          { "src": "./assets/images/gallery/travel/iros-26/6.png" },
+          { "src": "./assets/images/gallery/travel/iros-26/7.png" },
+          { "src": "./assets/images/gallery/travel/iros-26/8.png" },
+          { "src": "./assets/images/gallery/travel/iros-26/9.png" }
         ]
       }
     ]

@@ -321,7 +321,7 @@ function renderGallery(data) {
 
     const travelSections = (data.gallery.travel || []).map(folder => `
         <section class="panel" data-reveal>
-            ${createSectionHeader(`Travel: ${escapeHTML(folder.title)}`)}
+            ${createSectionHeader(`${escapeHTML(folder.title)}`)}
             <div class="masonry-grid">
                 ${renderImages(folder.images || [])}
             </div>

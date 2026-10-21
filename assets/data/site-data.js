@@ -115,7 +115,7 @@ window.siteData = {
         "id": "prings",
         "title": "PrinGS: Privacy Preservation in Gaussian Splatting",
         "conference": "ICVGIP 2026",
-        "authors": "Gaurav Behera*, Abhinav Raundhal*, Archisha Panda*, Saumya Balina*, Gargi Shroff, Ponnurangam Kumaraguru",
+        "authors": "Gaurav Behera*, Abhinav Raundhal*, Archisha Panda*, Saumya Balina*, Gargi Shroff*, Ponnurangam Kumaraguru",
         "summary": "Developed a representation level anonymization technique for preserving privacy in 3D Gaussian Splatting without using the original training images.",
         "projectUrl": "https://privacypreserving3dgs.github.io/",
         "thumbnail": "./assets/images/publications/prings.png",

@@ -2,13 +2,14 @@ window.siteData = {
   "site": {
     "name": "Abhinav Raundhal",
     "affiliation": "Cloudphysician · IIIT Hyderabad",
-    "lastUpdated": "10 October 2026",
+    "lastUpdated": "21 October 2026",
     "intro": [
-      "I am a Computer Vision Engineer at Cloudphysician, where I develop computer vision models for real-time critical care applications for ICU patients. I graduated from IIIT Hyderabad, where I conducted research at the Center for Visual Information Technology (CVIT) and the Robotics Research Center (RRC).",
-      "My research interests include computer vision, 3D vision, and robotics. My recent work spans 3D Gaussian Splatting, autonomous exploration and mapping, document understanding, and privacy-preserving 3D scene representations.",
+      "I am a Computer Vision Engineer at Cloudphysician, where I build models for real-time critical care applications for ICU patients. I graduated from IIIT Hyderabad, where I conducted research at the Center for Visual Information Technology (CVIT) and the Robotics Research Center (RRC).",
+      "My research interests include computer vision, 3D vision, and robotics. My recent work spans 3D Gaussian Splatting, autonomous exploration, document understanding, and privacy-preserving 3D scene representations.",
       "I enjoy photography, painting, and exploring new places. Feel free to sneak into my <a href=\"gallery.html\">Gallery</a> to see some of my recent adventures and artwork!"
     ],
     "profileImage": "./assets/images/profile/profile.png",
+    "sourceUrl": "https://github.com/Abhinav7R/Abhinav7R.github.io",
     "socials": [
       {
         "label": "Google Scholar",
@@ -42,6 +43,10 @@ window.siteData = {
   },
   "news": [
     {
+      "date": "Oct 2026",
+      "text": "🎉 Our paper \"PrinGS: Privacy Preservation in Gaussian Splatting\" was accepted to ICVGIP 2026."
+    },
+    {
       "date": "Sep 2026",
       "text": "🚀 Best Paper Award at Bridging Perspectives in Navigation workshop for \"Beyond Frontiers\" at IROS 2026."
     },
@@ -55,7 +60,7 @@ window.siteData = {
     },
     {
       "date": "Jul 2026",
-      "text": "🏆 Received Best All-Rounder Award at IIIT Hyderabad."
+      "text": "🏆 Received Best All-Rounder Award (Institute Gold Medal) at IIIT Hyderabad."
     },
     {
       "date": "Jun 2026",
@@ -105,6 +110,17 @@ window.siteData = {
         "thumbnail": "./assets/images/publications/beyondfrontiers.png",
         "accent": "#6b96d8",
         "codeUrl": "https://github.com/beyondfrontiers/Beyond-Frontiers"
+      },
+      {
+        "id": "prings",
+        "title": "PrinGS: Privacy Preservation in Gaussian Splatting",
+        "conference": "ICVGIP 2026",
+        "authors": "Gaurav Behera*, Abhinav Raundhal*, Archisha Panda*, Saumya Balina*, Gargi Shroff, Ponnurangam Kumaraguru",
+        "summary": "Developed a representation level anonymization technique for preserving privacy in 3D Gaussian Splatting without using the original training images.",
+        "projectUrl": "https://privacypreserving3dgs.github.io/",
+        "thumbnail": "./assets/images/publications/prings.png",
+        "accent": "#6b96d8",
+        "codeUrl": "https://github.com/privacypreserving3dgs/prings"
       }
     ]
   },
@@ -309,7 +325,7 @@ window.siteData = {
       },
       {
         "title": "Megathon Winner for 3 consecutive years",
-        "description": "Won hackathons organized by E-Cell IIITH with problem statements from Chubb, Telangana State Govt, and Mindpeers."
+        "description": "Top 3 positions in hackathons organized by E-Cell IIITH with problem statements from Chubb, Telangana State Govt, and Mindpeers."
       },
       {
         "title": "KVPY Scholar",

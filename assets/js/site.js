@@ -110,9 +110,11 @@ function renderHeader(data, activePage) {
 
 function renderFooter(data) {
     const lastUpdated = data.site.lastUpdated || '';
+    const sourceUrl = data.site.sourceUrl || '';
     return `
         <footer class="footer" data-reveal>
-            <span>&copy; ${new Date().getFullYear()} ${escapeHTML(data.site.name)}.${lastUpdated ? ` Last updated: ${escapeHTML(lastUpdated)}` : ''}</span>
+            <span>&copy; ${escapeHTML(data.site.name)}.${lastUpdated ? ` Last updated: ${escapeHTML(lastUpdated)}` : ''}</span>
+            ${sourceUrl ? `<a href="${escapeHTML(sourceUrl)}" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>` : ''}
         </footer>
     `;
 }

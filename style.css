@@ -940,7 +940,7 @@ body:not([data-page="home"]) .brand {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 0;
+	gap: 0.5rem;
 	margin-top: 1.5rem;
 	padding: 1.2rem 0 0;
 	color: var(--text-soft);
